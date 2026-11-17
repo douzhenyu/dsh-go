@@ -2,6 +2,8 @@
   <a href="README.md">简体中文</a> · <b>English</b>
 </p>
 
+> **Native HarmonyOS development branch**: this branch builds on `claude/harmonyos-ohos` from [upstream dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) and adds a standalone ArkUI/ArkTS frontend. Start with the [native project guide](app/ohos-native/README.md) and [verification record](app/ohos-native/VERIFICATION.md). The upstream README and attribution are retained below; this port is not an official upstream release.
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/assets/hero-en-dark.webp">

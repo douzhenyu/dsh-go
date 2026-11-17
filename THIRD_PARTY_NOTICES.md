@@ -157,6 +157,8 @@ DS Bot 的 NOTICE 原文附在文末。
 | `test/fixtures/protocol-v1/` | `fixtures/protocol/v1`（原样复制） |
 | `tool/e2e/patch-webrtc.mjs` | 不复制代码：在 E2E 时改写上游 `apps/server/src/gateway.ts`，按托管 Server 的行为打开 WebRTC 协商与 signaling 转发 |
 
+原生 HarmonyOS 移植 / Native HarmonyOS adaptation：`app/ohos-native/entry/src/main/ets/remote/` 将上述 Dart Remote 协议、Noise IK 与逻辑 mux 适配到 ArkTS 和 HarmonyOS 系统 API；原始移植基线为本仓库 `6459f947`。详细映射见 `app/ohos-native/THIRD_PARTY_NOTICES.md`。MIT 全文另随原生资源 `entry/src/main/resources/rawfile/licenses/ds-harness-remote-MIT.txt` 附带，未修改原许可或版权声明。
+
 ### Libraries.dev（MIT）
 
 | 项 | 内容 |

@@ -2,6 +2,8 @@
   <b>简体中文</b> · <a href="README.en.md">English</a>
 </p>
 
+> **原生鸿蒙开发分支**：本分支基于 [上游 dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) 的 `claude/harmonyos-ohos`，新增独立 ArkUI/ArkTS 前端。请从 [原生工程说明](app/ohos-native/README.md) 和 [验证记录](app/ohos-native/VERIFICATION.md) 开始。下方保留上游 README 与原有署名；本移植不是上游官方发布。
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/assets/hero-zh-dark.webp">

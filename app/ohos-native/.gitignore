@@ -1,0 +1,23 @@
+# DevEco / Hvigor generated state
+.hvigor/
+.idea/
+build/
+oh_modules/
+node_modules/
+.cxx/
+.DS_Store
+local.properties
+
+# Local signing inputs and installable artifacts
+*.p12
+*.p7b
+*.cer
+*.pem
+*.key
+*.jks
+*.keystore
+*.hap
+*.hsp
+*.app
+build-profile.local.json5
+signing-config.local.json5

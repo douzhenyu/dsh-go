@@ -1,0 +1,19 @@
+
+{
+  "apiType": 'stageMode',
+  "buildOption": {
+    "resOptions": {
+      // restool's default pattern drops every dotfile, and the runtime manifest lists 180.
+      "ignoreResourcePattern": [".DS_Store"]
+    },
+  },
+  "targets": [
+    {
+      "name": "default",
+      "runtimeOS": "HarmonyOS"
+    },
+    {
+      "name": "ohosTest",
+    }
+  ]
+}
